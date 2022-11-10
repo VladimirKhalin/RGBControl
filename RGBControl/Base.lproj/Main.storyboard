@@ -29,7 +29,7 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMt-gH-kiX">
                                 <rect key="frame" x="16" y="110.5" width="382" height="128"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="YMt-gH-kiX" secondAttribute="height" multiplier="191:64" id="cSC-wQ-wH7"/>
                                 </constraints>
@@ -38,7 +38,7 @@
                                 <rect key="frame" x="16" y="370.5" width="382" height="155"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="AQQ-S0-NqV">
-                                        <rect key="frame" x="0.0" y="0.0" width="113.5" height="155"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="109.5" height="155"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T8u-6i-YnY">
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="51"/>
@@ -64,7 +64,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="RL4-cS-Ym2">
-                                        <rect key="frame" x="123.5" y="0.0" width="40" height="155"/>
+                                        <rect key="frame" x="119.5" y="0.0" width="40" height="155"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l8u-Ou-f5G">
                                                 <rect key="frame" x="0.0" y="0.0" width="34.5" height="51"/>
@@ -93,22 +93,22 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="coR-aG-XNO">
-                                        <rect key="frame" x="173.5" y="0.0" width="208.5" height="155"/>
+                                        <rect key="frame" x="169.5" y="0.0" width="212.5" height="155"/>
                                         <subviews>
                                             <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MYD-4j-RkP">
-                                                <rect key="frame" x="-2" y="0.0" width="212.5" height="56"/>
+                                                <rect key="frame" x="-2" y="0.0" width="216.5" height="56"/>
                                                 <connections>
                                                     <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="e1Y-0i-pgn"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Gf1-cb-OCF">
-                                                <rect key="frame" x="-2" y="75" width="212.5" height="31"/>
+                                                <rect key="frame" x="-2" y="75" width="216.5" height="31"/>
                                                 <connections>
                                                     <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="fQw-Jq-Kie"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="w1P-tn-JjR">
-                                                <rect key="frame" x="-2" y="125" width="212.5" height="31"/>
+                                                <rect key="frame" x="-2" y="125" width="216.5" height="31"/>
                                                 <connections>
                                                     <action selector="sliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="F0w-hm-hj4"/>
                                                 </connections>
