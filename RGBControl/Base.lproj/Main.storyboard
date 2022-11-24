@@ -169,17 +169,17 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k8d-7K-rzZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="done" textContentType="name"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="decimalPad" returnKeyType="done" textContentType="name"/>
                                             </textField>
                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s9t-iz-8Ot">
                                                 <rect key="frame" x="0.0" y="62" width="70" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                                             </textField>
                                             <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ff3-IT-Xol">
                                                 <rect key="frame" x="0.0" y="124" width="70" height="30.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -209,14 +209,14 @@
                     <connections>
                         <outlet property="blueLabel" destination="h26-Zx-8na" id="E9T-lH-oxR"/>
                         <outlet property="blueSlider" destination="w1P-tn-JjR" id="F4q-e2-6fF"/>
+                        <outlet property="blueTextField" destination="ff3-IT-Xol" id="Jfu-PE-4T3"/>
                         <outlet property="colorPalitraView" destination="YMt-gH-kiX" id="Kbn-eC-zwA"/>
                         <outlet property="greenLabel" destination="Av1-J7-eRm" id="ZX1-I4-lq0"/>
                         <outlet property="greenSlider" destination="Gf1-cb-OCF" id="J4K-R3-BkW"/>
+                        <outlet property="greenTextField" destination="s9t-iz-8Ot" id="zxa-Z5-bdn"/>
                         <outlet property="redLabel" destination="l8u-Ou-f5G" id="KW0-5M-U4T"/>
                         <outlet property="redSlider" destination="MYD-4j-RkP" id="ia6-lz-FUs"/>
-                        <outletCollection property="textFieldsRGBControl" destination="k8d-7K-rzZ" collectionClass="NSMutableArray" id="W1d-iX-Q3v"/>
-                        <outletCollection property="textFieldsRGBControl" destination="s9t-iz-8Ot" collectionClass="NSMutableArray" id="TfC-mV-Xe9"/>
-                        <outletCollection property="textFieldsRGBControl" destination="ff3-IT-Xol" collectionClass="NSMutableArray" id="ubV-8v-Guw"/>
+                        <outlet property="redTextField" destination="k8d-7K-rzZ" id="bVL-I5-Ag4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
